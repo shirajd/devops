@@ -1,8 +1,15 @@
-<?xml version="1.0"?>
-<project name = "my xml" default ="info">
-  <property file = "build.properties"/>
-  
-  <target name ="info">
-	<echo>ant version is ${version} and you are at ${site}</echo>
-  </target>
+<?xml version="1.0" ?>
+<project name="Test" default="mkdir">
+
+        
+
+        <target name="mkdir">
+                <mkdir dir="shiraj2"/>
+                <mkdir dir="dist" />
+        </target>
+
+        
+
+        
 </project>
+
